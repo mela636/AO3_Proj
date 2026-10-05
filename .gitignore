@@ -5,3 +5,5 @@
 .httr-oauth
 .DS_Store
 .quarto
+Data/tags.csv
+Data/works.csv

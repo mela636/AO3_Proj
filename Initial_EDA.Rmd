@@ -1,0 +1,40 @@
+---
+title: "AO3_EDA"
+output: html_document
+date: "2026-10-05"
+---
+
+```{r libraries,message=FALSE}
+library(readr)
+library(dplyr)
+library(tidyverse)
+```
+
+```{r}
+tags <- read_csv("C:/Users/kirik/OneDrive/Documents/R Projects/AO3_Proj/Data/tags.csv")
+works <- read_csv("C:/Users/kirik/OneDrive/Documents/R Projects/AO3_Proj/Data/works.csv")
+```
+
+```{r}
+glimpse(tags)
+glimpse(works)
+```
+
+```{r}
+summary(tags)
+```
+```{r}
+summary(works)
+```
+```{r}
+unique(tags$type)
+```
+
+```{r}
+unique(works$language)
+```
+
+```{r}
+
+```
+
