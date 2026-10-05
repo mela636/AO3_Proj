@@ -10,9 +10,15 @@ library(dplyr)
 library(tidyverse)
 ```
 
+
 ```{r}
-tags <- read_csv("C:/Users/kirik/OneDrive/Documents/R Projects/AO3_Proj/Data/tags.csv")
-works <- read_csv("C:/Users/kirik/OneDrive/Documents/R Projects/AO3_Proj/Data/works.csv")
+tags <- read_csv("C:/Users/kirik/Documents/Computational Data Analysis/tags-20210226.csv")
+works <- read_csv("C:/Users/kirik/Documents/Computational Data Analysis/works-20210226.csv")
+```
+
+```{r}
+# tags <- read_csv("C:/Users/kirik/OneDrive/Documents/R Projects/AO3_Proj/Data/tags.csv")
+# works <- read_csv("C:/Users/kirik/OneDrive/Documents/R Projects/AO3_Proj/Data/works.csv")
 ```
 
 ```{r}
